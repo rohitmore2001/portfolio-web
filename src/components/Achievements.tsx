@@ -20,6 +20,7 @@ export default function Achievements() {
               transition={{ delay: 0.04 * i }}
               viewport={{ once: true }}
               className="card p-4"
+              // @ts-expect-error: className is valid for motion.li
             >
               <div className="shine" />
               <div className="flex items-center gap-3">
