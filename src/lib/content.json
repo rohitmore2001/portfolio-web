@@ -161,7 +161,7 @@
         {
             "title": "Portfolio",
             "description": "Animated Next.js portfolio with Tailwind, Framer Motion, and dynamic JSON content.",
-            "link": "#",
+            "link": "https://portfolio-web-g4p8.vercel.app/",
             "stack": [
                 "Next.Js",
                 "TypeScript",
