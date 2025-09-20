@@ -4,13 +4,14 @@ import { ThemeProvider } from 'next-themes'
 import Navbar from '@/components/Navbar'
 import MouseGlow from '@/components/MouseGlow'
 import { Inter } from 'next/font/google'
+import favicon from '../assets/images/favicon.jpg'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
   title: 'Rohit More — React Developer',
   description: 'Portfolio of Rohit Maruti More, React/TypeScript developer specializing in high-performance web apps.',
-  icons: { icon: '/favicon.ico' },
+  icons: { icon: '/favicon.jpg' },
   openGraph: {
     title: 'Rohit More — React Developer',
     description: 'High-performance, delightful web apps using React, Next.js, TypeScript',
