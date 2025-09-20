@@ -1,0 +1,183 @@
+{
+    "name": "ROHIT MARUTI MORE",
+    "designation": "ReactJs Developer",
+    "contact": {
+        "location": "Pune, Maharashtra 411057",
+        "email": "rohitmore13062001@gmail.com",
+        "phone": "+91 750-751-0363"
+    },
+    "links": {
+        "github": "https://github.com/rohitmore2001",
+        "linkedin": "https://www.linkedin.com/in/rohitmore13",
+        "resume": "#"
+    },
+    "contactSection": {
+        "title": "Let’s build something great",
+        "subtitle": ""
+    },
+    "skills": [
+        {
+            "title": "Frontend",
+            "items": [
+                "React.js",
+                "Next.js",
+                "TypeScript",
+                "JavaScript (ES6+)",
+                "HTML5",
+                "CSS3",
+                "Tailwind CSS",
+                "Material-UI",
+                "Ant Design"
+            ]
+        },
+        {
+            "title": "State Management",
+            "items": [
+                "Redux Toolkit",
+                "TanStack Query (React Query)"
+            ]
+        },
+        {
+            "title": "Backend & APIs",
+            "items": [
+                "RESTful APIs",
+                "Firebase (Auth, Firestore, Realtime DB)"
+            ]
+        },
+        {
+            "title": "Tools",
+            "items": [
+                "Git",
+                "GitHub",
+                "VS Code",
+                "Jira",
+                "Postman",
+                "npm/yarn",
+                "Cursor",
+                "Windsurf"
+            ]
+        },
+        {
+            "title": "Ops",
+            "items": [
+                "Linux basics (CLI)",
+                "Vercel",
+                "AWS (basic)"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "role": "ReactJs Developer",
+            "company": "Prometteur Solutions Pvt. Ltd",
+            "period": "11/2024 – Present",
+            "location": "Pune MH",
+            "highlights": [
+                "Built scalable React/Next.js apps with Material-UI, Tailwind and robust testing.",
+                "Developed work management platform (Hive) with real-time dashboards and role-based access.",
+                "Collaborated in agile teams and optimized performance and accessibility."
+            ]
+        },
+        {
+            "role": "ReactJs Developer",
+            "company": "Noitavonne India",
+            "period": "05/2024 – 11/2024",
+            "location": "Kolhapur MH",
+            "highlights": [
+                "Developed crypto investment platform with PayPal integration and user reviews.",
+                "Built admin dashboard for coin management, news, and KYC.",
+                "Implemented real-time feeds with Redux and TanStack Query."
+            ]
+        },
+        {
+            "role": "ReactJs Developer",
+            "company": "ReapMind Innovations Pvt. Ltd.",
+            "period": "04/2023 – 04/2024",
+            "location": "Kolhapur MH",
+            "highlights": [
+                "Developed Pawsapce dashboard with listing, search, and data export.",
+                "Delivered SlideGPT presentation design tool using Material-UI and Ant Design.",
+                "Led UI design reviews for quality and UX consistency."
+            ]
+        }
+    ],
+    "achievements": [
+        {
+            "title": "Above & Beyond Award at Prometteur Solutions Pvt. Ltd. — 10th Anniversary Celebration 2025"
+        },
+        {
+            "title": "Secured 3rd rank in university (B.Tech IT) — 2023"
+        },
+        {
+            "title": "Shivaji University Merit Scholarship — 1st year (2019–20)"
+        },
+        {
+            "title": "President of IT Department (Student Council) — 2022–23"
+        },
+        {
+            "title": "IDOL Student award in school (10th, 2017)"
+        },
+        {
+            "title": "Kabaddi: Runner-up at National level events; represented team at MIT WPU (2019) as captain"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Hive — Work Management",
+            "description": "Admin panel + multi-user platform with dashboards and role-based access.",
+            "link": "https://vercel.com",
+            "stack": [
+                "Next.js",
+                "React.Js",
+                "TypeScript",
+                "Tailwind",
+                "Redux"
+            ]
+        },
+        {
+            "title": "CoinExchange",
+            "description": "Crypto platform with community features and PayPal integration.",
+            "link": "https://vercel.com",
+            "stack": [
+                "React.Js",
+                "Redux",
+                "Firebase",
+                "MUI",
+                "TanStack Query"
+            ]
+        },
+        {
+            "title": "Pawsapce",
+            "description": "Grooming booking dashboard with filters, analytics, and admin tools.",
+            "link": "https://vercel.com",
+            "stack": [
+                "React.Js",
+                "MUI",
+                "Redux"
+            ]
+        }
+    ],
+    "personalProjects": [
+        {
+            "title": "Portfolio",
+            "description": "Animated Next.js portfolio with Tailwind, Framer Motion, and dynamic JSON content.",
+            "link": "#",
+            "stack": [
+                "Next.Js",
+                "TypeScript",
+                "Tailwind",
+                "Framer Motion"
+            ]
+        },
+        {
+            "title": "Eye care consultant",
+            "description": "Eye care consultant website with appointment booking",
+            "link": "https://octopus-eye-care.vercel.app/",
+            "stack": [
+                "Next.Js",
+                "Tailwind",
+                "TypeScript"
+            ]
+        }
+    ]
+}

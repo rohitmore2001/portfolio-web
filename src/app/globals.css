@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 255 255 255;
+  --fg: 17 24 39;
+}
+
+.dark {
+  --bg: 3 7 18;
+  --fg: 229 231 235;
+}
+
+html, body, #__next { height: 100%; }
+html { scroll-behavior: smooth; }
+
+body {
+  @apply bg-[rgb(var(--bg))] text-[rgb(var(--fg))] antialiased leading-relaxed text-[15.5px] md:text-[16.5px];
+}
+
+/******** Reusable utilities ********/ 
+.container-responsive { @apply mx-auto max-w-6xl px-4 sm:px-6 lg:px-8; }
+.section { @apply container-responsive py-16 sm:py-24; }
+.section-title { @apply text-4xl sm:text-5xl font-extrabold tracking-tight; }
+.section-sub { @apply mt-2 max-w-2xl text-gray-600 dark:text-gray-300; }
+
+/* Small uppercase label above section titles */
+.kicker { @apply mb-2 inline-block text-xs font-semibold uppercase tracking-widest text-brand-400; }
+
+/* Better default typography for paragraphs and lists inside cards */
+.prose-soft p { @apply leading-relaxed text-gray-700 dark:text-gray-300; }
+.prose-soft li { @apply leading-relaxed text-gray-700 dark:text-gray-300; }
+
+/* Display utility for hero headings */
+.display { @apply text-5xl sm:text-6xl md:text-7xl font-black tracking-tight; }
+
+/* Link underline style */
+a { @apply underline-offset-4; }
+a:hover { @apply underline; }
+
+/******** Fancy gradients ********/
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-400 via-accent-500 to-brand-600;
+}
+
+/******** Animated cursor glow ********/
+.cursor-glow {
+  position: fixed;
+  width: 36vmax;
+  height: 36vmax;
+  border-radius: 50%;
+  pointer-events: none;
+  background: radial-gradient(circle at center, rgba(99,102,241,0.35), rgba(236,72,153,0.15) 40%, transparent 70%);
+  filter: blur(48px);
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+/******** Cards ********/
+.card {
+  @apply relative overflow-hidden rounded-2xl border border-white/10 bg-white/60 shadow-xl backdrop-blur-md dark:bg-black/30; 
+}
+.card:hover .shine { opacity: 1; transform: translateX(120%); }
+.shine {
+  @apply pointer-events-none absolute -inset-y-8 -left-1/2 h-[140%] w-1/2 rotate-12 bg-gradient-to-r from-white/10 via-white/40 to-white/10 opacity-0 transition-all duration-700; 
+}
