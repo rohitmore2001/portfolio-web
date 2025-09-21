@@ -124,14 +124,15 @@
     "projects": [
         {
             "title": "Hive — Work Management",
-            "description": "Admin panel + multi-user platform with dashboards and role-based access.",
+            "description": "Website, Admin panel + multi-user platform with dashboards and role-based access.",
             "link": "https://vercel.com",
             "stack": [
                 "Next.js",
                 "React.Js",
                 "TypeScript",
                 "Tailwind",
-                "Redux"
+                "Redux",
+                "MUI"
             ]
         },
         {
@@ -178,6 +179,19 @@
                 "Tailwind",
                 "TypeScript"
             ]
+        }
+    ],
+    "publications": [
+        {
+            "title": "Waste Food Management System",
+            "description": "The Food Waste Management System is an Android-based app designed to connect donors, restaurants, and NGOs to reduce food wastage and feed the needy. Restaurants or individuals can donate leftover food, while NGOs can raise requests and collect it for distribution. The app builds a transparent network between donors, NGOs, and beneficiaries, ensuring clarity and swiftness in the donation process. It empowers people willing to help but unaware of how to contribute, thereby addressing hunger, malnutrition, and food wastage effectively.",
+            "link": "https://tijer.org/tijer/confirmationlettermanager.php?a_rid=100840",
+            "regId": "TIJER_100840",
+            "paperId": "TIJER2304358",
+            "impactFactor": "8.57 (Calculate by Google Scholar) | License by Creative Common 3.0",
+            "publishedIn": "Volume 10 | Issue 4 | April-2023",
+            "pageNo": "632-634",
+            "publishedUrl": "https: //tijer.org/tijer/viewpaperforall.php?paper=TIJER2304358 "
         }
     ]
 }

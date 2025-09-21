@@ -5,7 +5,7 @@ import Projects from '@/components/Projects'
 import Contact from '@/components/Contact'
 import Achievements from '@/components/Achievements'
 import PersonalProjects from '@/components/PersonalProjects'
-
+import Publications from '@/components/Publications'
 export default function Home() {
   return (
     <main className="relative">
@@ -13,6 +13,7 @@ export default function Home() {
       <Skills />
       <Experience />
       <Projects />
+      <Publications />
       <PersonalProjects />
       <Achievements />
       <Contact />
