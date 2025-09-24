@@ -70,9 +70,9 @@ export default function Hero() {
               <Phone size={18} />
               <span>{data.contact.phone}</span>
             </a>
-            {/* <a href={data.links.resume} target="_blank" className="card px-4 py-2">
+            <a href={data.links.resume} target="_blank" className="card px-4 py-2">
               <span className="shine" />View Resume
-            </a> */}
+            </a>
           </motion.div>
         </div>
       </div>
